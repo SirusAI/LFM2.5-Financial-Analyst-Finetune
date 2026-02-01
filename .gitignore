@@ -1,0 +1,31 @@
+# Large model files
+model_output/
+*.safetensors
+*.gguf
+*.bin
+*.pth
+
+# Data and sensitivity
+data/
+merged_dataset.jsonl
+*.jsonl
+*.csv
+
+# Python environment and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
