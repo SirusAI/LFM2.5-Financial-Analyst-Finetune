@@ -8,7 +8,7 @@ This project contains the complete workflow for fine-tuning the **Liquid LFM2.5-
 ---
 
 ## Download Model | 模型下载
-You can download the fine-tuned model (Safetensors & GGUF) from Hugging Face:  
+You can download the fine-tuned model (GGUF) from Hugging Face:  
 **Hugging Face**: [maximaverick/LFM2.5-1.2B-Financial-Analyst-Thinking](https://huggingface.co/maximaverick/LFM2.5-1.2B-Financial-Analyst-Thinking)
 
 ---
