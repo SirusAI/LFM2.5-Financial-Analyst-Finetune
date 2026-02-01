@@ -7,6 +7,12 @@ This project contains the complete workflow for fine-tuning the **Liquid LFM2.5-
 
 ---
 
+## Download Model | 模型下载
+You can download the fine-tuned model (Safetensors & GGUF) from Hugging Face:  
+**Hugging Face**: [maximaverick/LFM2.5-1.2B-Financial-Analyst-Thinking](https://huggingface.co/maximaverick/LFM2.5-1.2B-Financial-Analyst-Thinking)
+
+---
+
 ## Strategic Focus | 微调方向
 1.  **Chinese A-Shares (A股个股分析)**: Training on massive financial research data to understand the unique dynamics and reporting style of the Chinese stock market. 使用大量行业研究报告进行训练，深入理解中国股市的独特动态和报告风格。
 2.  **CFA Professional Standards (CFA专业标准)**: Integrating professional accounting principles and valuation methodologies sourced from CFA Level reasoning data. 整合了源自CFA核心课程的专业会计准则及估值方法论。
