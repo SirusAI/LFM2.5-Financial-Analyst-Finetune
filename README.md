@@ -13,6 +13,24 @@ You can download the fine-tuned model (GGUF) from Hugging Face:
 
 ---
 
+## Fine-Tuning Results | 微调效果对比
+
+Below is a comparison between the **original LFM2.5-1.2B model** and the **fine-tuned version**, both using Q8_0 quantization (~1.2GB).
+
+以下是**原版 LFM2.5-1.2B 模型**与**微调后版本**的效果对比，均使用 Q8_0 量化（约1.2GB）。
+
+### Original Model (原版模型)
+![Original LFM2.5-1.2B Q8](Comparation%20Images/LFM2.5%201.2B%20-%20Original%20Q8.png)
+
+### Fine-Tuned Model (微调后模型)
+![Fine-Tuned LFM2.5-1.2B Q8](Comparation%20Images/LFM2.5%201.2B%20-%20Fintune%20Q8.png)
+
+### Key Improvements | 关键改进
+- **专业术语**: 微调后模型能够使用准确的金融专业术语进行分析
+- **思维链推理**: 输出包含 `<think>` 标签的详细推理过程
+- **结构化回答**: 提供层次分明、条理清晰的专业分析报告
+- **中国市场理解**: 深入理解A股市场特点、政策法规和行业动态
+
 ## Strategic Focus | 微调方向
 1.  **Chinese A-Shares (A股个股分析)**: Training on massive financial research data to understand the unique dynamics and reporting style of the Chinese stock market. 使用大量行业研究报告进行训练，深入理解中国股市的独特动态和报告风格。
 2.  **CFA Professional Standards (CFA专业标准)**: Integrating professional accounting principles and valuation methodologies sourced from CFA Level reasoning data. 整合了源自CFA核心课程的专业会计准则及估值方法论。
